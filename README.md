@@ -1,100 +1,60 @@
-# City Bus Driving Simulator 🚌
+# 🚌 City Bus Driving Simulator
 
-A 3D bus driving simulation developed using Unity and C#.
+A 3D City Bus Driving Simulator developed with **Unity and C#**. The project focuses on implementing vehicle physics, driving mechanics, camera control, and an in-game HUD within an urban environment.
 
-## Project Overview
+## 🎮 Features
 
-City Bus Driving Simulator is a personal Unity project developed to explore vehicle physics, realistic driving mechanics, and interactive camera systems in a 3D urban environment.
+- Physics-based bus movement using `Rigidbody` and `WheelCollider`
+- Rear-wheel drive system
+- Acceleration, braking, and reverse movement
+- Steering system with synchronized steering wheel rotation
+- Real-time wheel and rim animations
+- Adjustable center of mass for improved vehicle stability
+- Forward and reverse speed limits
+- Four camera perspectives:
+  - Driver View
+  - Top View
+  - Bird's-Eye View
+  - Wheel View
+- Camera switching using the **C** key
+- Real-time speed display (km/h)
+- Dynamic speed indicator colors
+- Direction indicator (D / R / N)
+- Urban environment with bus stop locations
 
-The project was developed from scratch, starting with the planning of the game structure and continuing with vehicle control, camera management, user interface, and environment design.
-
-## Features
-
-### Vehicle Physics & Controls
-- Rigidbody-based vehicle physics
-- Four-wheel WheelCollider system
-- Rear-wheel drive (RWD)
-- Acceleration and braking mechanics
-- Forward and reverse movement
-- Steering control
-- Synchronized steering wheel animation
-- Wheel and rim rotation
-- Center of mass adjustment for improved vehicle stability
-- Maximum speed limitation
-
-### Multiple Camera Perspectives
-- Driver's seat view
-- Top view
-- Bird's-eye view
-- Wheel view
-- Camera switching using the C key
-- Single-camera system with multiple camera positions
-
-### Driving Interface (HUD)
-- Real-time speed display in km/h
-- Dynamic speed indicator colors:
-  - Green: Below 30 km/h
-  - Yellow: 30–59 km/h
-  - Red: 60 km/h and above
-- Drive, Reverse, and Neutral indicators (D, R, N)
-
-### Environment
-- 3D urban environment
-- Customized city map
-- Bus stop locations
-- Night-time driving environment
-
-## Technologies Used
+## 🛠️ Technologies
 
 - Unity
 - C#
 - Rigidbody
 - WheelCollider
 - TextMeshPro
-- Unity Input System / Input Manager
+- Unity Input Manager
 
-## Scripts & Implementation
+## 💻 Scripts
 
-### VehicleController.cs
-Handles the main vehicle mechanics, including motor torque, braking, steering, wheel physics, and vehicle speed limitations.
+| Script | Description |
+|---|---|
+| `VehicleController.cs` | Handles vehicle physics, acceleration, braking, steering, wheel rotation, and speed limits. |
+| `CameraController.cs` | Controls camera movement between predefined viewpoints. |
+| `BusHUD.cs` | Updates the speed display, direction indicator, and speed-based text colors. |
 
-### CameraController.cs
-Manages multiple camera perspectives using a single camera. Players can switch between predefined camera positions by pressing C.
-
-### SpeedoMeter.cs
-Implements the driving HUD by displaying real-time vehicle speed, movement direction, and speed-based visual indicators.
-
-## Screenshots
+## 📸 Screenshots
 
 <img width="1246" height="643" alt="image" src="https://github.com/user-attachments/assets/752ef424-3bad-462e-a92e-c3d613dbfbee" />
 <img width="1242" height="644" alt="image" src="https://github.com/user-attachments/assets/25d8d3d5-9efc-4f22-98e7-fb40f99577ea" />
 <img width="1241" height="643" alt="image" src="https://github.com/user-attachments/assets/1e846071-afcf-47c5-a6f0-8c80b61eda9d" />
 <img width="1233" height="638" alt="image" src="https://github.com/user-attachments/assets/82512051-5989-4095-8c1e-09537902803b" />
 
-## Development Status
+## 📦 Assets
 
-**In Development**
+Some 3D models and environment assets used in this project are third-party assets obtained from external platforms, such as the Unity Asset Store and Sketchfab.
 
-The current version focuses on vehicle driving mechanics, camera systems, and the urban environment.
+Due to their licensing and redistribution restrictions, these asset files are not included in this repository. The repository focuses on the original C# scripts and development work.
 
-Passenger interactions and mission systems have not yet been implemented.
+## 🚧 Project Status
 
-## Third-Party Credits
-
-The project uses selected third-party assets:
-
-- **Demo City** – Versatile Studio ([Unity Asset Store](https://assetstore.unity.com/packages/3d/environments/urban/demo-city-by-versatile-studio-mobile-friendly-269772))
-- **Street Vehicles Pack – Autobus Tram** – Vladislav Simakov ([Unity Asset Store](https://assetstore.unity.com/packages/3d/vehicles/land/street-vehicles-pack-autobus-tram-213421))
-- **BUS-STATION** – sherif shawky ([Sketchfab](https://sketchfab.com/3d-models/bus-station-fca169385b04409ca208f87b84796f07)), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Some original parts were removed; no new elements were added.
-- **Mercedes-Benz MB O-371R 1989 Bus** – [Pro_modeler (Tahminayeasminmony)](https://sketchfab.com/3d-models/mercedes-benz-mb-o-371r-1989-bus-a5b46eb6d0c24081b6b7d7d439f9aea3) – Licensed under Creative Commons Attribution (CC BY). The model is credited to the uploader. The uploader notes that they are not the original creator.
-- 
-Third-party assets remain the property of their respective creators. Original asset files are not included in this repository.
-
-## Repository Scope
-
-This repository focuses on original C# scripts, vehicle control systems, camera management, and gameplay development.
-
-Third-party assets that cannot be redistributed under their applicable licenses are excluded.
+The project is currently under development. The main driving mechanics, camera system, and HUD have been implemented. Further improvements and additional gameplay features may be added in future updates.
 
 
 
