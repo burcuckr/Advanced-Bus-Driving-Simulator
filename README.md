@@ -86,6 +86,7 @@ The project uses selected third-party assets:
 - **Demo City** – Versatile Studio ([Unity Asset Store](https://assetstore.unity.com/packages/3d/environments/urban/demo-city-by-versatile-studio-mobile-friendly-269772))
 - **Street Vehicles Pack – Autobus Tram** – Vladislav Simakov ([Unity Asset Store](https://assetstore.unity.com/packages/3d/vehicles/land/street-vehicles-pack-autobus-tram-213421))
 - **BUS-STATION** – sherif shawky ([Sketchfab](https://sketchfab.com/3d-models/bus-station-fca169385b04409ca208f87b84796f07)), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Some original parts were removed; no new elements were added.
+- **Bus Model – Mercedes-Benz MB O-371R 1989 Coach Bus (possible source)** – joao3DModels ([CGTrader](https://www.cgtrader.com/free-3d-models/vehicle/bus/merecedes-benz-mb-o-371r-1989-coach-bus)). The downloaded model contains the creator name "joao3D" and its filename includes the matching CGTrader product ID (2263056). The exact source has not been independently verified.
 
 Third-party assets remain the property of their respective creators. Original asset files are not included in this repository.
 
